@@ -9,6 +9,10 @@ Extracts data from reddit(r/News)
 Transforms the extracted data into a dictionary
 Loads the data into a PostgreSQL Database.
 
+My postgreSQL image shows just a snippet of 3 articles being extracted transfomed and loaded in PostgreSQL.
+My code has the ability to extract transform and load a vast number of articles with only limitations to those
+with Legal safeguards in place. (Unable to be extracted due to legal reasons.)
+
 there is also commented out sections that show that it is also possible 
 to filter all articles in (r/News) by keywords and only showing articles 
 that obtain these keywords. This function also calculayes how many time they appear in each article.
