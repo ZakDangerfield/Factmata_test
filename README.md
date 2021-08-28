@@ -16,7 +16,8 @@ from each Url and the textual data.
 
 ----How to run the code----
 Installation of my requirments.txt is needed to be able to run with my selected library.
-
+It also features other library items that are required to be able to upload our data
+To the cloud 
 A docker compose file will need to be created, and a postgreSQL initiated
 on a localhost port number: 5432.
 
