@@ -6,8 +6,10 @@ Firstly thank you for giving me the oppurtunity to demonstrate my skillsets.
 I have Created an ETL Pipeline that:
 Reads and Extracts all top URLS in R/news using Newspaper3K library.
 Extracts data from reddit(r/News) 
-Transforms the extracted data into a list
-Loads the data into a PostgreSQL Database.
+Transforms the extracted data into a list and appends a 
+Score to each url. The score is there to mimic what we would expect
+To happen when we gather score on keywords within each URL.
+Finally we Load the data into a PostgreSQL Database.
 
 My postgreSQL image shows a vast array of articles Url's, the scores extracted 
 from each Url and the textual data.
