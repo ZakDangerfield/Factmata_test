@@ -7,17 +7,18 @@ I have Created an ETL Pipeline that:
 Reads and Extracts all top URLS in R/news using Newspaper3K library.
 Extracts data from reddit(r/News) 
 Transforms the extracted data into a list and appends a 
-Score to each url. The score is there to mimic what we would expect
-To happen when we gather score on keywords within each URL.
+Score to each url. The score function used, is there to mimic what we would expect
+The layout to look like when we gather score on keywords within each URL.
 Finally we Load the data into a PostgreSQL Database.
 
-My postgreSQL image shows a vast array of articles Url's, the scores extracted 
+My postgreSQL image shows a vast array of article Url's, the scores 
 from each Url and the textual data.
 
 ----How to run the code----
+
 Installation of my requirments.txt is needed to be able to run with my selected library.
-It also features other library items that are required to be able to upload our data
-To the cloud 
+It also features other library items that are required, to be able to upload our data
+To the cloud. 
 A docker compose file will need to be created, and a postgreSQL initiated
 on a localhost port number: 5432.
 
